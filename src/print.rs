@@ -1,3 +1,4 @@
+
 pub fn run() {
     // print to the console
     println!("Hello from print.rs file");
@@ -31,4 +32,7 @@ pub fn run() {
     println!(
         "{:?}", (true, "john", 3.1415, 'x')
     );
+
+    // basic math
+    println!("Area: {}", 3.1415 * 10.0 * 10.0);
 }
